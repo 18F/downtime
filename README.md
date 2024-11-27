@@ -1,9 +1,9 @@
-# Downtime
+# Uptime
 Extremely simple, static, server-free uptime monitoring. No procurement or ATO needed*.
 
 \*Statements about ATO not yet verified.
 
-[View the demo site.](https://18f.github.io/downtime/)
+[View the demo site.](https://18f.github.io/uptime/)
 
 ## What problem does this solve?
 
@@ -17,7 +17,7 @@ This monitors the uptime/downtime status of a single website, without:
 
 ## How can I use this?
 
-- Clone or [fork](https://github.com/18F/downtime/fork) this repository to your own GitHub account / organization.
+- Clone this repository to your own GitHub account / organization. (Forking it appears to break GitHub Actions.)
 - Delete the contents of `log.txt` and `readlog.txt`, but leave the empty files in place.
 - Find and replace `18f.gsa.gov` everywhere in the repo with your own URL. As of this writing, it's only in:
   - The header in `index.html`
